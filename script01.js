@@ -92,7 +92,6 @@ function stopTheGame() {
   })
 
   resultDisplay.innerHTML = result
-
   }
   
  
