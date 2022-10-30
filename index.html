@@ -3,48 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="rock-paper-scissors.css">
     <title>Rock-Paper-Scissors</title>
 </head>
 <body>
+    <div class="flexbox-main">
 
-    <div class="title">
-        <h2>ROCK PAPER SCISSORS</h2>
-    </div>
+        <div class="flexbox-container">
+
+            <div class="title"> RoCk pApER sCisSorS 
+            </div>
     
-
-    <div class="button-choices">
-        <button id="✊" class="selection">✊</button>
-        <button id="✋" class="selection">✋</button>
-        <button id="✌️" class="selection">✌️</button>
-    </div>
+                <div class="button-choices">
+                    <button id="✊" class="selection">✊</button>
+                    <button id="✋" class="selection">✋</button>
+                    <button id="✌️" class="selection">✌️</button>
+                </div>
 
     <div class="result-section">
-        <div>You
+        <div>Your selection:
             <span id="user-choice">❔</span>
+            <span id="score">Score:</span>
             <span id="user-score">0</span>
         </div>
-        <div>Computer
+        <div>Computer selection:
             <span id="computer-choice">❔</span>
+            <span id="score">Score:</span>
             <span id="computer-score">0</span>
         </div>
-    
     </div>
 
     <div class="game-result">
-        <span id="result">Who will prevail?!</span>
+        <span id="result">First to 5  wins!</span>   
     </div>
 
-<div class="reset-button">
+    <div 
+    class="reset-button">
     <button id="reset-game">Reset Game</button>
-</div>
-
-  
+    </div>
 
     <div class="footer">
         <p class="footer01"> Created October 2022 by David Irvine for <a class= "footer01" href="https://www.theodinproject.com" target="_blank">The Odin Project </a></p>
     </div>
+
+</div>
+</div>
+
     <script src="script01.js"></script>
+
 </body>
 </html>

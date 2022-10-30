@@ -77,7 +77,7 @@ function getResult() {
 
 function stopTheGame() {
   if (userScore > computerScore) {
-    result = 'You are victorious. Celebrate by buying me a coffee!'
+    result = 'You are victorious!'
   } else {
     result = 'Pfffff, you are the loser! Try again?!'
   }
