@@ -1,8 +1,8 @@
 // global HTML variables
 const computerChoiceDisplay = document.getElementById('computer-choice')
-const computerScoreboard = document.getElementById('computer-score')
-const userChoiceDisplay = document.getElementById('user-choice')
-const userScoreboard = document.getElementById('user-score')
+const computerScoreboard = document.getElementById('computer-score-number')
+const userChoiceDisplay = document.getElementById('player-choice')
+const userScoreboard = document.getElementById('player-score-number')
 const resultDisplay = document.getElementById('result')
 const possibleChoices = document.querySelectorAll('button')
 const resetButton = document.getElementById('reset-game').disabled = true;
